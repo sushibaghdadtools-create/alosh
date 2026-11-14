@@ -1,0 +1,21 @@
+/* Staff dashboards (receptionist + employee): dark warm theme. Scope with class="theme-staff" on html/body or any container. */
+.theme-staff{
+--bg-0:#0B0A0A;--bg-1:#141111;--bg-2:#211B1B;--bg-3:#2B2323;
+--glass:rgba(33,27,27,.55);--glass-strong:rgba(33,27,27,.85);--glass-border:rgba(245,239,233,.14);--glass-highlight:rgba(245,239,233,.1);--blur:blur(20px); /* @kind other */
+--ink:#F5EFE9;--ink-2:#E8C8AD;--ink-3:#CDB9A6;--ink-4:#9E8B7C;
+--beige:#E8C8AD;--pink:#D58B91;--orange:#C65A32;--terracotta:#A8482A;--plum:#842D39;--brown:#674338;
+--accent:var(--orange);--accent-soft:rgba(198,90,50,.18);
+/* booking status (always paired with a text label) */
+--st-confirmed:#7FA98A;--st-confirmed-bg:rgba(127,169,138,.16);
+--st-pending:#D9A05B;--st-pending-bg:rgba(217,160,91,.16);
+--st-progress:#7FA3C9;--st-progress-bg:rgba(127,163,201,.16);
+--st-done:#A88BC9;--st-done-bg:rgba(168,139,201,.16);
+--st-cancelled:#D86B62;--st-cancelled-bg:rgba(216,107,98,.16);
+--st-unpaid:#9E9A96;--st-unpaid-bg:rgba(158,154,150,.16);
+/* employee identity colours (distinct from status) */
+--emp-sara:#D58B91;--emp-noor:#C65A32;--emp-mariam:#8FAE8B;--emp-zainab:#B49AD6;
+--r-sm:12px;--r-md:16px;--r-lg:22px;--r-xl:28px;--r-pill:999px;
+--tap:48px;
+--surface-page:var(--bg-0);--surface-card:var(--glass);--text-heading:var(--ink);--text-body:var(--ink);--text-muted:var(--ink-3);--text-subtle:var(--ink-4);--border-subtle:var(--glass-border);--border-default:var(--glass-border);--primary:var(--ink);--text-link:var(--ink-2);--text-link-hover:var(--ink);--focus-ring:var(--beige);
+}
+.theme-staff{background:var(--bg-0);color:var(--ink)}
