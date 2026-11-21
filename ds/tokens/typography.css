@@ -1,0 +1,15 @@
+:root{
+--text-xs:12px;--text-sm:14px;--text-md:16px;--text-lg:18px;--text-xl:22px;--text-2xl:28px;--text-3xl:40px;--text-4xl:56px;--text-5xl:clamp(44px,8vw,104px);
+--leading-tight:1.1;--leading-snug:1.4;--leading-body:1.9;--leading-display:1.15;
+--weight-light:300;--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;
+--tracking-caps:.12em;
+--type-display:var(--weight-semibold) var(--text-5xl)/var(--leading-display) var(--font-display);
+--type-h1:var(--weight-semibold) var(--text-4xl)/var(--leading-display) var(--font-display);
+--type-h2:var(--weight-medium) var(--text-3xl)/var(--leading-display) var(--font-display);
+--type-h3:var(--weight-medium) var(--text-xl)/var(--leading-snug) var(--font-display);
+--type-body:var(--weight-regular) var(--text-md)/var(--leading-body) var(--font-body);
+--type-body-sm:var(--weight-regular) var(--text-sm)/var(--leading-body) var(--font-body);
+--type-label:var(--weight-medium) var(--text-sm)/var(--leading-snug) var(--font-body);
+--type-caption:var(--weight-regular) var(--text-xs)/var(--leading-snug) var(--font-body);
+--type-eyebrow:var(--weight-medium) var(--text-xs)/1 var(--font-body);
+}
