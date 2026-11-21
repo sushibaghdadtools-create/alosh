@@ -1,0 +1,24 @@
+:root{
+/* brand palette (from the Alosh brief) */
+--black:#0B0A0A;--charcoal:#211B1B;--orange:#C65A32;--pink:#D58B91;--burgundy:#842D39;--brown:#674338;--beige:#E8C8AD;--ivory:#F5EFE9;
+/* derived steps */
+--charcoal-2:#2A2222;--charcoal-3:#352B2B;--black-2:#161212;--orange-deep:#A84A28;--pink-deep:#B9707A;--beige-muted:#CDB9A6;--beige-dim:#9E8B7C;
+/* status (muted, warm) */
+--success-600:#7FA98A;--success-100:rgba(127,169,138,.16);--warning-600:#D9A05B;--warning-100:rgba(217,160,91,.16);--danger-600:#D86A5E;--danger-100:rgba(216,106,94,.16);--info-600:#D58B91;--info-100:rgba(213,139,145,.16);
+/* surfaces */
+--surface-page:var(--black);--surface-card:var(--charcoal);--surface-raised:var(--charcoal-2);--surface-sunken:var(--black-2);--surface-inverse:var(--ivory);--surface-inverse-deep:var(--beige);
+/* glass */
+--glass-bg:rgba(33,27,27,.55);--glass-bg-strong:rgba(33,27,27,.78);--glass-border:rgba(245,239,233,.16);--glass-highlight:rgba(245,239,233,.1);
+/* text */
+--text-heading:var(--ivory);--text-body:var(--ivory);--text-muted:var(--beige-muted);--text-subtle:var(--beige-dim);--text-on-inverse:var(--black);--text-on-accent:var(--ivory);--text-accent:var(--beige);--text-link:var(--beige);--text-link-hover:var(--pink);
+/* accent + primary */
+--accent:var(--orange);--accent-hover:var(--orange-deep);--accent-soft:rgba(198,90,50,.18);--accent-on-dark:var(--beige);
+--primary:var(--charcoal-2);--primary-hover:var(--charcoal-3);--primary-active:var(--charcoal);
+/* borders */
+--border-subtle:rgba(245,239,233,.1);--border-default:rgba(245,239,233,.18);--border-strong:var(--ivory);--border-on-dark:rgba(245,239,233,.16);
+--focus-ring:var(--beige);
+/* compat aliases (older components) */
+--ink-950:var(--black);--ink-900:var(--charcoal);--ink-800:var(--charcoal-2);--ink-700:var(--charcoal-3);--ink-600:#4A3D3D;--ink-300:var(--beige-dim);--ink-100:var(--beige-muted);
+--paper-50:var(--ivory);--paper-100:#EFE6DD;--paper-200:var(--beige);--paper-300:var(--beige-muted);--paper-500:var(--beige-dim);--paper-700:var(--beige-muted);--paper-900:var(--ivory);
+--grey-100:var(--accent-soft);--grey-300:var(--beige);--grey-500:var(--brown);--grey-600:var(--burgundy);--grey-700:var(--orange-deep);
+}
